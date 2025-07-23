@@ -28,7 +28,7 @@ export function PrivacyModal({ isOpen, onClose }: PrivacyModalProps) {
             <strong>Only Hockey Privacy Policy</strong>
           </p>
           <p>
-            This privacy policy describes how Only Hockey ("we", "us", or "our") collects, uses, and protects your information when you visit our website.
+            This privacy policy describes how Only Hockey (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, and protects your information when you visit our website.
           </p>
           <p>
             <strong>Information We Collect:</strong>

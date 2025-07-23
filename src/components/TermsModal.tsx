@@ -28,13 +28,13 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
             <strong>Only Hockey Terms of Service</strong>
           </p>
           <p>
-            By accessing and using Only Hockey ("the Service"), you accept and agree to be bound by the terms and provision of this agreement.
+            By accessing and using Only Hockey (&quot;the Service&quot;), you accept and agree to be bound by the terms and provision of this agreement.
           </p>
           <p>
             <strong>Use License:</strong>
           </p>
           <p>
-            Permission is granted to temporarily access the materials on Only Hockey's website for personal, non-commercial transitory viewing only.
+            Permission is granted to temporarily access the materials on Only Hockey&apos;s website for personal, non-commercial transitory viewing only.
           </p>
           <p>
             <strong>Restrictions:</strong>
@@ -49,13 +49,13 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
             <strong>Disclaimer:</strong>
           </p>
           <p>
-            The materials on Only Hockey's website are provided on an 'as is' basis. Only Hockey makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+            The materials on Only Hockey&apos;s website are provided on an &apos;as is&apos; basis. Only Hockey makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
           </p>
           <p>
             <strong>Limitations:</strong>
           </p>
           <p>
-            In no event shall Only Hockey or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Only Hockey's website.
+            In no event shall Only Hockey or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Only Hockey&apos;s website.
           </p>
           <p className="text-xs text-gray-500 mt-4">
             Last updated: January 2025

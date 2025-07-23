@@ -28,7 +28,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
             <strong>Get in Touch</strong>
           </p>
           <p>
-            Have questions about hockey facts, want to contribute content, or just want to say hello? We'd love to hear from you!
+            Have questions about hockey facts, want to contribute content, or just want to say hello? We&apos;d love to hear from you!
           </p>
           
           <div className="space-y-3">
