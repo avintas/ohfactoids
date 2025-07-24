@@ -40,8 +40,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Main Container - 60% width, centered */}
-      <div className="w-3/5 mx-auto max-w-4xl">
+      {/* Main Container - 100% width on mobile, 60% on desktop */}
+      <div className="w-full md:w-3/5 mx-auto max-w-4xl px-4 md:px-0">
         
         {/* Header */}
         <header className="text-center py-4">
@@ -88,21 +88,21 @@ export default function Home() {
                 <a 
                   href="#privacy" 
                   onClick={handlePrivacyClick}
-                  className="footer-link cursor-pointer"
+                  className="footer-link-legal"
                 >
                   Privacy
                 </a>
                 <a 
                   href="#terms" 
                   onClick={handleTermsClick}
-                  className="footer-link cursor-pointer"
+                  className="footer-link-legal"
                 >
                   Terms
                 </a>
                 <a 
                   href="#contact" 
                   onClick={handleContactClick}
-                  className="footer-link cursor-pointer"
+                  className="footer-link-legal"
                 >
                   Contact
                 </a>
