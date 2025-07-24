@@ -9,6 +9,7 @@ import { PrivacyModal } from "@/components/PrivacyModal";
 import { TermsModal } from "@/components/TermsModal";
 import { ContactModal } from "@/components/ContactModal";
 import { factoids } from "@/data/factoids";
+import { FactoidData } from "@/types";
 
 export default function Home() {
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function Home() {
     setIsContactModalOpen(true);
   };
 
-  const renderFactoid = (factoid: any) => {
+  const renderFactoid = (factoid: FactoidData) => {
     if (factoid.badge.text === "SHOP") {
       return <EcommerceFactoid key={factoid.id} {...factoid} />;
     }

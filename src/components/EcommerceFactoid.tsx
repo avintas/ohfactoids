@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp, ShoppingCart, Heart } from "lucide-react";
+import Image from "next/image";
 
 interface EcommerceFactoidProps {
-  id: string;
   badge: {
     text: string;
     color: "orange" | "yellow" | "red" | "green" | "blue" | "purple";
@@ -23,7 +23,7 @@ const badgeColors = {
   purple: "bg-purple-500 text-white",
 };
 
-export function EcommerceFactoid({ id, badge, content, expandedContent }: EcommerceFactoidProps) {
+export function EcommerceFactoid({ badge, content, expandedContent }: EcommerceFactoidProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -42,10 +42,12 @@ export function EcommerceFactoid({ id, badge, content, expandedContent }: Ecomme
       <div className="flex">
         <div className={`w-16 h-16 flex items-center justify-center font-bold text-xs ${badgeColors[badge.color]}`}>
           {badge.image ? (
-            <img 
+            <Image 
               src={badge.image} 
               alt={badge.text}
-              className="w-10 h-10 object-contain"
+              width={40}
+              height={40}
+              className="object-contain"
             />
           ) : (
             badge.text

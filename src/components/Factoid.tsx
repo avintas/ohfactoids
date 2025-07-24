@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import Image from "next/image";
 import { FactoidData } from "@/types";
 
 interface FactoidProps {
@@ -36,10 +37,12 @@ export function Factoid({ factoid }: FactoidProps) {
       <div className="flex">
         <div className={`w-16 h-16 flex items-center justify-center font-bold text-xs ${badgeColors[factoid.badge.color]}`}>
           {factoid.badge.image ? (
-            <img 
+            <Image 
               src={factoid.badge.image} 
               alt={factoid.badge.text}
-              className="w-10 h-10 object-contain"
+              width={40}
+              height={40}
+              className="object-contain"
             />
           ) : (
             factoid.badge.text
