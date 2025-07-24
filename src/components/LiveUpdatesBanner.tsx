@@ -20,7 +20,7 @@ export function LiveUpdatesBanner() {
         {/* Text Content */}
         <div className="flex items-center gap-3">
           <span className="text-green-400 font-mono text-sm uppercase tracking-wide">
-            LIVE UPDATES
+            TODAY&apos;S LINEUP
           </span>
           
           {/* Green Dot Separator */}

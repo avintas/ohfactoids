@@ -30,12 +30,20 @@ export function Factoid({ factoid }: FactoidProps) {
     <div 
       className={`border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow ${
         factoid.expandedContent ? "cursor-pointer" : ""
-      }`}
+      } ${isExpanded ? "bg-pink-50" : ""}`}
       onClick={toggleExpand}
     >
       <div className="flex">
         <div className={`w-16 h-16 flex items-center justify-center font-bold text-xs ${badgeColors[factoid.badge.color]}`}>
-          {factoid.badge.text}
+          {factoid.badge.image ? (
+            <img 
+              src={factoid.badge.image} 
+              alt={factoid.badge.text}
+              className="w-10 h-10 object-contain"
+            />
+          ) : (
+            factoid.badge.text
+          )}
         </div>
         <div className="flex-1 p-4">
           <div className="flex items-center justify-between">

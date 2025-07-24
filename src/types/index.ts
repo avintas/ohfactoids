@@ -3,6 +3,7 @@ export interface FactoidData {
   badge: {
     text: string;
     color: "orange" | "yellow" | "red" | "green" | "blue" | "purple";
+    image?: string; // Optional image path for the badge
   };
   content: string;
   expandedContent?: string;
