@@ -34,7 +34,7 @@ export function EcommerceFactoid({ badge, content, expandedContent }: EcommerceF
 
   return (
     <div 
-      className={`border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow ${
+      className={`border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow bg-white ${
         expandedContent ? "cursor-pointer" : ""
       } ${isExpanded ? "bg-pink-50" : ""}`}
       onClick={toggleExpand}
