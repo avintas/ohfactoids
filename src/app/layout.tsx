@@ -18,8 +18,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Only Hockey - Today's Lineup",
-  description: "Daily hockey factoids and insights. Today's lineup of the most interesting hockey stories, quotes, and facts.",
+  title: "Only Hockey - Today&apos;s Lineup",
+  description: "Daily hockey factoids and insights. Today&apos;s lineup of the most interesting hockey stories, quotes, and facts.",
 };
 
 export default function RootLayout({

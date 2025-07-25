@@ -19,8 +19,8 @@ interface FactoidCardProps {
 export function FactoidCard({ 
   image = "/icons/quote.svg", 
   title = "Smart Quotes",
-  content = "'I skate to where the puck is going to be, not where it has been.' - Wayne Gretzky",
-  expandedContent = "'I skate to where the puck is going to be, not where it has been.' - Wayne Gretzky's wisdom applies to life beyond hockey. Gretzky's most famous quote reveals the mindset that made him hockey's greatest player. This philosophy extended far beyond the rink into his approach to pressure and expectations. 'Pressure is something you feel when you don't know what the hell you're doing,' Gretzky once explained to young players. His ability to anticipate rather than react separated him from every other player in hockey history. This forward-thinking approach allowed him to thrive under the immense pressure of being hockey's most scrutinized player.",
+  content = "&apos;I skate to where the puck is going to be, not where it has been.&apos; - Wayne Gretzky",
+  expandedContent = "&apos;I skate to where the puck is going to be, not where it has been.&apos; - Wayne Gretzky&apos;s wisdom applies to life beyond hockey. Gretzky&apos;s most famous quote reveals the mindset that made him hockey&apos;s greatest player. This philosophy extended far beyond the rink into his approach to pressure and expectations. &apos;Pressure is something you feel when you don&apos;t know what the hell you&apos;re doing,&apos; Gretzky once explained to young players. His ability to anticipate rather than react separated him from every other player in hockey history. This forward-thinking approach allowed him to thrive under the immense pressure of being hockey&apos;s most scrutinized player.",
   badge
 }: FactoidCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
